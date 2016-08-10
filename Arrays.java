@@ -9,7 +9,8 @@ public class Arrays {
 		{
 			if(temp<=5)
 			{
-			    System.out.printf("\n enter %d value",temp++);
+			    System.out.printf("\n enter %d value"+temp);
+			    temp++;
 				int x=in.nextInt();
 				System.out.println("\n After the elimation of duplicate value:");
 				int count=0;
